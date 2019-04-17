@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <title>Lesson 3 Forms &amp; Multimedia</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <h2>Forms</h2>
+        <form action="welcome.html" method="POST" autocomplete="">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="n1">
+
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <label for="password"></label><br>
+            <input type="password" name="password" id="ps">
+            <label for="gender">Gender</label><br>
+            Male <input type="radio" name="n1" id="">
+            Female <input type="radio" name="n1" id="">
+
+            <label for="city">City</label>
+            <select name="city" id="c">
+                <option value="o">Select One</option>
+                <option value="o1">Seattle</option>
+                <option value="02">Bellingham</option>
+            </select>
+            <br>
+            <textarea name="message" id="m" cols="50" rows="10"></textarea>
+        </form>
+
+        <h2>Audio</h2>
+
+        <audio controls autoplay loop muted>
+            <source type="audio/mp3" src="media/audio.mp3">
+        </audio>
+
+        <video controls autoplay width="100%" loop>
+            <source type="video/mp4" src="media/ipad.mp4">
+        </video>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
